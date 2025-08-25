@@ -31,17 +31,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../public')));
 
 // Routes
-app.use('/product', productRoutes);
 app.use('/user', userRoutes)
-app.use('/brand', brandRoutes);
-app.use('/product-category', categoryRoutes);
-app.use('/material', materialRoutes);
-app.use('/groupCategory', groupCategoryRoutes);
-app.use('/subCategory', subCategoryRoutes);
-app.use('/pickUp', pickUpRoutes);
-app.use('/order', orderRoutes);
-app.use('/coupon', couponRoutes);
-app.use('/bannerPrincipal', bannerPrincipalRoutes);
 // Health check endpoint
 app.get('/health', (req: Request, res: Response) => {
     res.status(200).json({ status: 'OK', message: 'Server is running' });
