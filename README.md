@@ -1,6 +1,7 @@
-﻿# e_tricks_backend
+﻿
+# template-express-clerk-mongodb-atlas
 
-Backend para una tienda e-commerce de calzados, desarrollado con Node.js, Express, TypeScript y MongoDB Atlas.
+Template Backend desarrollado con Node.js, Express, TypeScript y MongoDB Atlas.
 
 ---
 
